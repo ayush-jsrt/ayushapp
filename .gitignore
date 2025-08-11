@@ -1,0 +1,45 @@
+# ========================
+# Backend (Python)
+# ========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+*.log
+.env
+.venv/
+venv/
+env/
+*.sqlite3
+
+# ========================
+# Frontend (Node.js / Vite)
+# ========================
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+*.log
+
+# ========================
+# OS files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Docker
+# ========================
+*.pid
+*.seed
+*.tar
+*.lock
+
+# Ignore VSCode settings
+.vscode/
+
+# ========================
+# Root node modules if any
+# ========================
+node_modules/
